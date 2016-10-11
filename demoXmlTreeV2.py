@@ -5,6 +5,5 @@ root = tree.getroot()
 f = open("o1.txt", "w")
 print >> f, tree
 f.close()
-
-#for ruleValue in root.iter('ruleValue'):
-#   print ruleValue.attrib
+# for ruleValue in root.iter('ruleValue'):
+# print ruleValue.attrib
